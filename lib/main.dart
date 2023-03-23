@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+// import 'package:flutter_complete_guide/categories.dart';
+import './categories.dart';
 
 void main() => runApp(MyApp());
 
@@ -10,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(),
+      home: Categories(),
     );
   }
 }
